@@ -1,19 +1,13 @@
-
 /*
  * @author: etlon
  * @version: 1.0
  * @date (ISO 8601): 2018.10.28
  * 
  */
-
-
-
-public class Reverter
+public class reverter
 {
-
 	public static void main(String[] args)
 	{
-
 		StringBuilder sb = new StringBuilder();
 		StringBuilder rev = new StringBuilder();
 		for(String s : args)
@@ -24,9 +18,6 @@ public class Reverter
 		{
 			rev.append(sb.charAt(i - 1));
 		}
-		System.out.print(rev);
-		
-		
+		System.out.print(rev);	
 	}
-
 }
